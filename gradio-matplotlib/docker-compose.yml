@@ -1,0 +1,7 @@
+services:
+  gradio_csv_app:
+    build: .
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data
