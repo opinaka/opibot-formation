@@ -27,12 +27,6 @@ cd opibot-formation
 docker compose up --build
 ```
 
-**Pour arréter un container**
-
-```bash
-docker compose down
-```
-
 
 
 #### **3. Accéder aux applications**
@@ -51,13 +45,13 @@ Une fois lancé, ouvrez votre navigateur sur :
 |**Streamlit**|Plotly|http://localhost:8505|8505|
 |**Streamlit**|Seaborn|http://localhost:8506|8506|
 
-#### **4. Arrêter les applications**
+#### **4. Arrêter une visualisation**
 
 ```bash
 docker compose down
 ```
 
-Cette commande arrête et supprime tous les conteneurs.
+Cette commande arrête et supprime un conteneur de visualisation.
 
 
 ---
