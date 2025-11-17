@@ -21,17 +21,19 @@ git clone https://github.com/opinaka/opibot-formation.git
 cd opibot-formation
 ```
 
-#### **2. Lancer tous les exemples**
+#### **2. Lancer une visualisation**
 
 ```bash
 docker compose up --build
 ```
 
-Cette commande va :
+**Pour arréter un container**
 
-- ✅ Construire tous les conteneurs Docker
-- ✅ Lancer toutes les applications en parallèle
-- ✅ Les rendre accessibles sur différents ports
+```bash
+docker compose down
+```
+
+
 
 #### **3. Accéder aux applications**
 
