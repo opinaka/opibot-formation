@@ -97,3 +97,12 @@ Pour chaque combinaison, notez de 1 à 5 :
 |**Intuitivité interface**|?|?|?|?|
 
 ---
+
+## Data
+```python
+import yfinance as yf
+
+# Télécharger les données du Bitcoin (BTC-USD) ou d'une action (ex: AAPL)
+crypto_data = yf.download("BTC-USD", start="2020-01-01", end="2025-12-31")
+stock_data = yf.download("AAPL", start="2020-01-01", end="2025-12-31")
+```
